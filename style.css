@@ -4,6 +4,12 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+
+
 /* Nevigation Part */
 nav {
     display: flex;
@@ -31,6 +37,11 @@ nav {
     font-size: 18px;
 }
 
+.nav-links a:hover{
+    background-color: rgb(238, 236, 236);
+    color: gray;
+}
+
 
 .nav-btn{
     text-align: right;
@@ -50,6 +61,8 @@ nav {
 
 .first-btn:hover {
     background-color: #299054;
+    color: rgb(219, 225, 152);
+    font-size: 1.1em;
 }
 
 
@@ -90,6 +103,8 @@ nav {
     margin-bottom: 32px;
     border-bottom: 24px;
     text-align: center;
+    line-height: 1.8;
+    letter-spacing: 1px;
 }
 
 .hero-content .top-btn {
@@ -104,6 +119,8 @@ nav {
 
 .hero-content .top-btn:hover {
     background-color: aliceblue;
+    color: rgb(93, 93, 91);
+    font-size: 1.1em;
 }
 
 
@@ -123,11 +140,14 @@ nav {
     border: none;
     border-radius: 4px;
     gap: 10px;
+    display: inline-flex;
     cursor: pointer;
 }
 
 .btn-two:hover {
     background-color: #289a58;
+    color: rgb(211, 215, 167);
+    font-size: 1.1em;
 
 }
 
@@ -144,8 +164,16 @@ nav {
 
 .btn-three:hover {
     background-color: darkgray;
+    color: rgb(52, 52, 50);
+    font-size: 1.1em;
 
 }
+
+.btn-two img,
+.last-btn img {
+    vertical-align: middle;
+}
+
 
 
 
@@ -162,7 +190,7 @@ nav {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-color: rgb(237, 234, 234);
+    background-color: rgb(251, 249, 249);
 }
 
 .third-heading {
@@ -180,7 +208,8 @@ nav {
 
 .card-section p{
    font-size: 16px;
-   margin-bottom: 44px; 
+   margin-bottom: 44px;
+   letter-spacing: 1px;
 
 }
 
@@ -189,21 +218,16 @@ nav {
     justify-content: space-between;
     flex-wrap: wrap;
     gap: 16px;
-    align-items:center;
-    /* margin-bottom:120px; */
-
-    /* padding: 24px;
-    color: rgba(255, 255, 255, 1); */
 }
 
 .cards {
     background-color: rgba(255, 255, 255, 1);
-    padding: 25px;
+    padding: 32px 25px;
     text-align: center;
     width: 322px;
     height: 300px;
     gap: 16px;
-    border-radius: 8px;
+    border-radius: 12px;
     box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.06);
 }
 
@@ -225,7 +249,9 @@ nav {
 
 .cards p {
 font-size: 16px;
-color:rgba(0, 25, 49, 1) ;
+color:rgba(0, 25, 49, 1);
+line-height: 1.6;
+letter-spacing: 1px;
 
 }
 
@@ -243,6 +269,7 @@ color:rgba(0, 25, 49, 1) ;
 .what-container{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     gap: 60px;
 }
 
@@ -276,15 +303,20 @@ color:rgba(0, 25, 49, 1) ;
     font-size: 16px;
     color: rgba(98, 115, 130, 1);
     margin-bottom: 16px;
+    line-height: 1.6;
+    letter-spacing: 1px;
 }
 
 .sentense ul{
     list-style-image: url(./assets/CheckCircle.png);
+    line-height: 1.6;
 }
 
 .sentense li {
     font-size: 16px;
     margin-bottom: 10px;
+    line-height: 1.6;
+    letter-spacing: 1px;
 }
 
 
@@ -300,15 +332,10 @@ margin: 0 auto;
 }
 
 .bonus-part {
-    /* width: 70%;
-    max-width: 1140px; */
     background-color: rgba(247, 246, 242, 1);
     padding: 40px 80px;
-    border-radius:12px ;
-    /* display: flex; */
-    align-items: center;
-    justify-content: center;
-
+    border-radius:12px;
+    text-align: center;
 }
 
 .bonus-part h2{
@@ -321,10 +348,14 @@ margin: 0 auto;
     font-size: 16px;
     color:rgba(98, 115, 130, 1);
     margin-bottom: 16px;
+    line-height: 1.6;
+    letter-spacing: 1px;
 }
 
 .last-btn {
     padding: 12px 16px;
+    display: inline-flex;
+    gap: 10px;
     font-size:16px ;
     font-weight: 600;
     background-color: #30B868;
@@ -338,6 +369,8 @@ margin: 0 auto;
 
 .last-btn:hover {
     background-color: #268d51;
+    color: rgb(212, 233, 151);
+    font-size: 1.1em;
 }
 
 
@@ -366,6 +399,28 @@ margin: 0 auto;
     font-size: 20px;
     color:rgba(255, 255, 255, 1);
     text-align: center;
+}
+
+.footer-social {
+    text-align: right;
+}
+
+.social-icons {
+    display: flex;
+    gap: 16px;
+    margin-top: 12px;
+}
+
+.social-icons a img {
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.social-icons a img:hover {
+    background-color: gainsboro;
 }
 
 .bottom-footer p {
