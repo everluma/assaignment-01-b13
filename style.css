@@ -152,9 +152,9 @@ nav {
 
 /* Card Section */
 
-.container{
-    background-color: rgb(237, 234, 234);
-}
+/* .container{
+    
+} */
 
 .card-section{
     display: flex;
@@ -162,6 +162,7 @@ nav {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    background-color: rgb(237, 234, 234);
 }
 
 .third-heading {
@@ -188,6 +189,7 @@ nav {
     justify-content: space-between;
     flex-wrap: wrap;
     gap: 16px;
+    align-items:center;
     /* margin-bottom:120px; */
 
     /* padding: 24px;
@@ -227,3 +229,113 @@ color:rgba(0, 25, 49, 1) ;
 
 }
 
+
+
+/* Second Section */
+
+.what-it-is {
+    padding: 120px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.what-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 60px;
+}
+
+.image-seven {
+    width: 600px;
+    height: 600px;
+    border-radius: 12px;
+}
+
+.sentense{
+    text-align: left;
+    justify-content: center;
+    align-items: center;
+}
+
+.number-one{
+    font-size: 16px;
+    color: rgba(70, 145, 101, 1);
+    margin-bottom: 16px;
+    text-transform: uppercase;
+}
+
+.sentense h2 {
+    font-size: 48px;
+    font-weight: bold;
+    color:rgba(0, 25, 49, 1);
+    margin-bottom: 16px;
+}
+
+.sentense .number-two {
+    font-size: 16px;
+    color: rgba(98, 115, 130, 1);
+    margin-bottom: 16px;
+}
+
+.sentense ul{
+    list-style:circle;
+}
+
+.sentense li {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+
+
+/* Bonus Section  */
+
+.bonus-section {
+   padding: 0px 120px 120px 120px;
+margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.bonus-part {
+    /* width: 70%;
+    max-width: 1140px; */
+    background-color: rgba(247, 246, 242, 1);
+    padding: 40px 80px;
+    border-radius:12px ;
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+
+}
+
+.bonus-part h2{
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+
+.bonus-part p{
+    font-size: 16px;
+    color:rgba(98, 115, 130, 1);
+    margin-bottom: 16px;
+}
+
+.last-btn {
+    padding: 12px 16px;
+    font-size:16px ;
+    font-weight: 600;
+    background-color: #30B868;
+    color: rgba(255, 255, 255, 1);
+    border: none;
+    border-radius:5px;
+    cursor: pointer;
+    margin-bottom: 16px;
+
+}
+
+.last-btn:hover {
+    background-color: #268d51;
+}
