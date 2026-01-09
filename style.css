@@ -147,3 +147,83 @@ nav {
 
 }
 
+
+
+
+/* Card Section */
+
+.container{
+    background-color: rgb(237, 234, 234);
+}
+
+.card-section{
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.third-heading {
+    display: block;
+}
+
+.card-section h2 {
+    font-size: 48px;
+    font-weight: bold;
+    color:black;
+    text-align: center;
+    margin-top: 39px;
+    margin-bottom: 20px;
+}
+
+.card-section p{
+   font-size: 16px;
+   margin-bottom: 44px; 
+
+}
+
+.card-design {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 16px;
+    /* margin-bottom:120px; */
+
+    /* padding: 24px;
+    color: rgba(255, 255, 255, 1); */
+}
+
+.cards {
+    background-color: rgba(255, 255, 255, 1);
+    padding: 25px;
+    text-align: center;
+    width: 322px;
+    height: 300px;
+    gap: 16px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.06);
+}
+
+.cards img {
+    height: 60px;
+    width: 60px;
+    background-color:rgba(249, 85, 85, 1);
+    border-radius: 100px;
+    padding: 10px;
+    margin-bottom: 16px;
+}
+
+.cards h3 {
+    font-size: 24px;
+    font-weight: 600;
+    color:rgba(0, 25, 49, 1);
+    margin-bottom: 16px;
+}
+
+.cards p {
+font-size: 16px;
+color:rgba(0, 25, 49, 1) ;
+
+}
+
